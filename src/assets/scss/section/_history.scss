@@ -1,4 +1,4 @@
-.skill__inner {
+.history__inner {
   padding: 16px;
   display: flex;
   justify-content: space-between;
@@ -7,9 +7,7 @@
     flex-direction: column;
   }
 
-  .skill__title {
-    position: sticky;
-    top: 70px;
+  .history__title {
     left: 0;
     width: 48%;
     height: 5vw;
@@ -23,7 +21,7 @@
 
     @media (max-width: 800px) {
       width: 100%;
-      margin-bottom: 10vw;
+      margin-bottom: 5vw;
       font-size: 30px;
       height: auto;
       top: 68px;
@@ -36,7 +34,8 @@
       line-height: 2;
     }
   }
-  .skill__desc {
+  .history__desc {
+    margin-top: 20vh;
     width: 50%;
 
     @media (max-width: 800px) {
@@ -61,7 +60,7 @@
       margin-bottom: 1vw;
     }
     p {
-      margin-bottom: 30vh;
+      margin-bottom: 10vh;
       font-size: 1.1rem;
     }
   }

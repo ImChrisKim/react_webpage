@@ -142,19 +142,19 @@ export const siteText = [
     github: "https://github.com/ImChrisKim/Cocotaxi",
   },
 ];
-// skill.js
-export const skillText = [
+// history.js
+export const historyText = [
   {
-    title: "극한의 최적화를 만든다",
-    desc: "a",
+    title: "숭실대학교(전자공학과) 졸업",
+    desc: "2014.02 - 2021.02",
   },
   {
-    title: "컴퓨터는 잘못이 없다, 내가 잘못이다",
-    desc: "b",
+    title: "구매자재팀 근무",
+    desc: "2020.10 - 2022.10",
   },
   {
-    title: "실수를 반복하지 않는다",
-    desc: "c",
+    title: "삼성청년소프트웨어 아카데미(SSAFY) 입과",
+    desc: "2022.12 - 2023.12",
   },
 ];
 
@@ -205,5 +205,25 @@ export const contactText = [
   {
     link: "mailto:chriskim9512@gmail.com",
     title: "mail : chriskim9512@gmail.com",
+  },
+];
+
+// skills.js
+export const skillText = [
+  {
+    title: "C++",
+    level: "2 out of 3",
+  },
+  {
+    title: "Python",
+    level: "1 out of 3",
+  },
+  {
+    title: "JavaScript",
+    level: "2 outof 3",
+  },
+  {
+    title: "React",
+    level: "2 outof 3",
   },
 ];
