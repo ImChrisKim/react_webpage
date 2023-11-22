@@ -56,7 +56,7 @@ const Header = () => {
           aria-controls="primary-menu"
           aria-expanded={show ? "true" : "false"}
           role="button"
-          tabindex="0"
+          tabIndex="0"
           onClick={toggleMenu}
         >
           <span></span>
