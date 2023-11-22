@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <section id="intro">
       <div class="intro__inner">
-        <h1 class="intro__title">port developer</h1>
+        <h1 class="intro__title">김성우의 웹페이지</h1>
         <div class="intro__lines" aria-hidden="true">
           <span class="line"></span>
           <span class="line"></span>
