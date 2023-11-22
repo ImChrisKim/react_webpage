@@ -23,10 +23,8 @@
   .header__nav {
     @media (max-width: 800px) {
       display: none;
-
       &.show {
         display: block;
-
         ul {
           display: block;
           position: absolute;
@@ -37,7 +35,6 @@
           z-index: 10000;
           min-width: 150px;
           padding: 20px 0;
-
           li {
             display: block;
             text-align: right;

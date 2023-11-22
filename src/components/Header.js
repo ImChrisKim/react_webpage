@@ -34,7 +34,7 @@ const Header = () => {
       <div className="header__inner">
         <div className="header__logo">
           <a href="/">
-            portfolio<em>vite</em>
+            portfolio<em>React</em>
           </a>
         </div>
         <nav
