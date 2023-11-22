@@ -13,19 +13,14 @@ const Site = () => {
             <article className={`site__item s${key + 1}`} key={key}>
               <span className="num">{key + 1}.</span>
               <div className="text">
-                <div>{data.text[0]}</div>
-                <div>{data.text[1]}</div>
-                <div>{data.text[2]}</div>
+                <div>{data.text}</div>
               </div>
               <h3 className="title">{data.title}</h3>
               <div className="btn">
-                <a href={data.code}>code</a>
-                <a href={data.view}>view</a>
+                <a href={data.github}>github</a>
               </div>
               <div className="info">
-                <span>{data.info[0]}</span>
-                <span>{data.info[1]}</span>
-                <span>{data.info[2]}</span>
+                <span>{data.info}</span>
               </div>
             </article>
           ))}
