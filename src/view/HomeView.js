@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import History from "../components/History";
@@ -11,8 +11,15 @@ import Skip from "../components/Skip";
 import Main from "../components/Main";
 
 const HomeView = () => {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, []);
+
   return (
-    <>
+    <div>
       <Skip />
       <Header />
       <Main>
@@ -23,8 +30,7 @@ const HomeView = () => {
         <Skills />
         <Contact />
       </Main>
-      <Footer />
-    </>
+    </div>
   );
 };
 

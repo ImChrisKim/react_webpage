@@ -18,7 +18,8 @@ const Intro = () => {
         </div>
         <div class="intro__text">
           <div class="text">
-            <div>김성우</div> <div>포트폴리오</div>
+            <div>일단!</div>
+            <div>귀여운 고양이</div> <div>보고가세요</div>
           </div>
           <div class="img">
             <img src={about} alt="어바웃" />
