@@ -2,6 +2,11 @@ import React from "react";
 import { historyText } from "../constants";
 
 const history = () => {
+  var winH = window.innerHeight;
+  var scrollY = window.scrollY;
+
+  console.log("현재 스크롤 위치 : ", scrollY);
+
   return (
     <section id="history">
       <div className="history__inner">

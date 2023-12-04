@@ -29,6 +29,7 @@ const HomeView = () => {
         <Port />
         <Skills />
         <Contact />
+        <Footer />
       </Main>
     </div>
   );
